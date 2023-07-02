@@ -3,14 +3,24 @@
 PyTorch Image Classification for my study.
 
 ## Model
+- CIFAR-10
+
+## Model
 - ResNet18
+- ViT
 
 ## Training Code Example
 
-'''
+- ResNet18
+```
 python train_ResNet18.py --config=./config/ResNet18_train.json
 
-'''
+```
+
+- ViT
+```
+python train_ViT.py --config=./config/ViT_train.json
+```
 
 ## TODO
 
